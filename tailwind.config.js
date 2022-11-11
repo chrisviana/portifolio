@@ -12,10 +12,22 @@ module.exports = {
         },
 
         font: {
-          300: "#F1F1F1"
+          200: "#656D72",
+          300: "#F1F1F1",
+          400: "#232E35",
+          verde: "#03FA6E"
+        },
+
+        fontbranca: {
+          200: "#F1F1F1"
         }
+
       }
     },
+    
+    fontFamily: {
+      'plus': ['Plus Jakarta Sans', 'sans-serif']
+    }
   },
   plugins: [],
 }
