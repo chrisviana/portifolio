@@ -13,7 +13,6 @@ module.exports = {
 
         font: {
           200: "#656D72",
-          300: "#F1F1F1",
           400: "#232E35",
           verde: "#03FA6E"
         },

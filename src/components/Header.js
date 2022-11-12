@@ -5,7 +5,7 @@ export function Header(){
         <div className='sm:grid grid-cols-3 mt-2 '>
             <img src={Logo} alt="Logo" className='w-44'/>
             <div>
-                <ul className='flex gap-4 justify-center text-font-300'>
+                <ul className='flex gap-4 justify-center text-font-400'>
                     <li>Services</li>
                     <li>Projects</li>
                     <li>Experience</li>
