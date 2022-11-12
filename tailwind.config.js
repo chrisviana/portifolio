@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-      "./src/**/*.js",
-      "./public/*.html"
+    "./src/**/*.js",
+    "./public/*.html"
   ],
   theme: {
     extend: {
@@ -18,12 +18,12 @@ module.exports = {
         },
 
         fontbranca: {
-          200: "#F1F1F1"
+          200: "  #F1F1F1"
         }
 
       }
     },
-    
+
     fontFamily: {
       'plus': ['Plus Jakarta Sans', 'sans-serif']
     }
