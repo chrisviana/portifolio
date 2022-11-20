@@ -1,5 +1,6 @@
 import { About } from "./components/About";
 import { Carrer } from "./components/Carreira/Carrer";
+import { EducationSkill } from "./components/EducationSkills/EducationSkills";
 import { Header } from "./components/Header";
 import { Projects } from "./components/Projetos/Projects";
 
@@ -10,6 +11,7 @@ function App() {
       <About />
       <Projects />
       <Carrer />
+      <EducationSkill />
     </div>
   );
 }

@@ -7,6 +7,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+
         fundo: {
           700: "#1E1E1E"
         },
@@ -18,7 +19,7 @@ module.exports = {
         },
 
         fontbranca: {
-          200: "  #F1F1F1"
+          200: "#F1F1F1"
         }
 
       }

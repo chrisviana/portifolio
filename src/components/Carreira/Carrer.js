@@ -35,8 +35,7 @@ const empresas = [
 ];
 
 export function Carrer() {
-  const [active, setActive] = useState(0);
-  console.log(active);
+  const [active, setActive] = useState(3);  
 
   return (
     <div className="mt-8">
