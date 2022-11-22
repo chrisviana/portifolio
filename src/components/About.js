@@ -9,16 +9,20 @@ export function About() {
         <Title title={"MY NAME IS"} />
         <h1 className="font-plus text-font-400 text-[3rem]">Christian <span className="text-font-verde">Viana</span></h1>
         <p className="text-[#232E35]">
-          I work with development since 2017 as a Full Stack where I had my first experiences using COS (Caché Object Script) and CSP (Caché Server Pages).
+
+          Developer since 2017 where I developed my first applications
+          using COS (Caché Object Script) and CSP (Caché Server Pages) acting directly as
+          Full Stack.
+          Today I work directly as Front End, but I always apply my studies in back-end and front-end technologies
         </p>
         <div className="flex mt-8 gap-2">
-          <a href="/" className="hover:text-font-verde">
+          <a href="https://www.instagram.com/chrisviana_dev/" className="hover:text-font-verde">
             <InstagramLogo size={32} color="#232E35" />
           </a>
-          <a href="/">
+          <a href="https://github.com/chrisviana">
             <GithubLogo size={32} color="#232E35" />
           </a>
-          <a href="/">
+          <a href="https://www.linkedin.com/in/christian-viana-421239107/">
             <LinkedinLogo size={32} color="#232E35" />
           </a>
         </div>

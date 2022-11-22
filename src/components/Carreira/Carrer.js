@@ -8,35 +8,49 @@ const empresas = [
   {
     link: "/acct",
     name: "ACCT | Consulting & Technology",
-    describe:
-      "Improving overall website performance for mobile users Collaborate with back-end developers and web designers to improve usabilityAdd voice search feature for mobile app. Developing an admin panel to manage contents, users, products and ...",
-    time: "2020 - 2012",
-    occupation: "Front-end Developer",
+    occupation: [
+      {
+        name: "Support Tecnically",
+        describe: "Directly assisting the end user of the ERP, with the issuance of invoices, DRE, Flow of Cash, Accounts Payable and Receivable, Production Order Process;",
+        time: "2015- 2020"
+      }
+    ],
     skills: ["VTEX IO", "React", "TypeScript"],
   },
 
   {
     link: "/fontanella",
     name: "Transportes Fontanella",
-    describe: "Teste 02",
-    time: "2020 - 2012",
-    occupation: "Front-End",
+    occupation: [
+      {
+        name: "Support Tecnically",
+        describe: "Directly assisting the end user of the ERP, with the issuance of invoices, DRE, Flow of Cash, Accounts Payable and Receivable, Production Order Process;",
+        time: "2020 - 2012",
+      }
+    ],
     skills: ["VTEX IO", "React", "TypeScript"],
   },
 
   {
     link: "/webmais",
     name: "WebMais Sistemas",
-    describe: "Teste 03",
-    time: "2020 - 2012",
-    occupation: "Front-End",
+    occupation: [
+      {
+        name: "Support Tecnically",
+        describe: "Directly assisting the end user of the ERP, with the issuance of invoices, DRE, Flow of Cash, Accounts Payable and Receivable, Production Order Process;",
+        time: "2015- 2012"
+      },
+      {
+        name: "Tete",
+        describe: "dadadadada"
+      }
+    ],
     skills: ["VTEX IO", "React", "TypeScript"],
   },
 ];
 
 export function Carrer() {
-  const [active, setActive] = useState(3);  
-
+  const [active, setActive] = useState(3);
   return (
     <div className="mt-8">
       <Title title="CARREIRA" />
@@ -76,8 +90,6 @@ export function Carrer() {
               path="/acct"
               element={
                 <Card
-                  describe={empresas[0].describe}
-                  time={empresas[0].time}
                   occupation={empresas[0].occupation}
                   skills={empresas[0].skills}
                 />
@@ -88,8 +100,6 @@ export function Carrer() {
               path="/fontanella"
               element={
                 <Card
-                  describe={empresas[1].describe}
-                  time={empresas[1].time}
                   occupation={empresas[1].occupation}
                   skills={empresas[1].skills}
                 />
@@ -100,8 +110,6 @@ export function Carrer() {
               path="/webmais"
               element={
                 <Card
-                  describe={empresas[2].describe}
-                  time={empresas[2].time}
                   occupation={empresas[2].occupation}
                   skills={empresas[2].skills}
                 />
