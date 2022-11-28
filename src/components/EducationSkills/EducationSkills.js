@@ -9,7 +9,7 @@ import iconGit from "../../assets/icon-git.svg"
 
 export function EducationSkill() {
   return (
-    <div className="mt-8">
+    <div className="mt-8" id="skills">
       <Title title="LEARNING PATH" />
       <h1 className="font-plus text-font-400 text-[2.25rem]">
         Education & Skills
